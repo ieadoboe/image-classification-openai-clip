@@ -4,7 +4,7 @@ CLIP (Contrastive Language-Image Pretraining) is a cutting-edge model from OpenA
 
 Focus: This project focuses on implementing and fine-tuning OpenAI's model for practical applications.
 
-- CLIP official link: [CLIP: Connecting text and images - Jan 5, 2021](https://openai.com/index/clip/)
+- CLIP Blog Post: [CLIP: Connecting text and images - Jan 5, 2021](https://openai.com/index/clip/)
 - Paper: [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
 - Code: [CLIP - GitHub](https://github.com/openai/CLIP)
 
@@ -30,7 +30,7 @@ Focus: This project focuses on implementing and fine-tuning OpenAI's model for p
 
 ### Phase 2: Setup and Core CLIP Implementation (Zero-Shot)
 
-- Setup .env: Install necessary libraries: torch, torchvision, ftfy, regex, tqdm, Pillow (PIL), numpy, and the official openai/clip library (pip install git+https://github.com/openai/CLIP.git)
+- Setup .env: Install necessary libraries: torch, torchvision, ftfy, regex, tqdm, Pillow (PIL), numpy, and the official openai/clip library (pip install git+<https://github.com/openai/CLIP.git>)
 - Pretrained CLIP Model (eg ViT-B/32)
 - Develop Core Classification Script:
   - Write a Python script that:
